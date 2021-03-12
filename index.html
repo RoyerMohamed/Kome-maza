@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="./images/logo-kome-waza.jpg" alt="logo-kome-waza" />
+        <ul>
+          <li>Home</li>
+          <li>Location</li>
+          <li>Online Orders</li>
+          <li>Menus</li>
+          <li>Catering</li>
+          <li>Delivery Option</li>
+          <li>More....</li>
+        </ul>
+      </nav>
+    </header>
+    <section class="header-image">
+      <img src="./images/header-image.jpg" alt="header-image" />
+    </section>
+    <section class="epice">
+      <div class="image-epice">
+        <img src="./images/epices.jpg" alt="image-epice" />
+      </div>
+      <div class="epice-text">
+        <h1>Kobe Waze</h1>
+        <p class="desc">(ko-meh wa-za)</p>
+        <p class="desc2">
+          Respect the fish! kome Waze strive to provide you with a delicate
+          balance between time-honored japaness sushi traditions and exiting new
+          Asian-inspired flavors in a refreshing new take on the East Coast poke
+          trend
+        </p>
+      </div>
+    </section>
+    <section>
+      <img src="./images/images-slider.JPG" alt="image-slider" />
+    </section>
+    <section class="title">
+      <div class="title-text">
+        <h1>SIGNATURE POKE</h1>
+      </div>
+      <div class="content-list">
+        <div class="content-list-text">
+          <div>
+            <i class="fas fa-heart"></i>
+            <div class="desc-content">
+              <span>1 WHITE SOY AVOCADO CREAM BOWL</span>
+              <small
+                >Seared tuna over 8-grain brown rice with mixed greens, hijiki
+                quinoa, white soy avocado cream sauce, sesame seeds, garlic
+                chips, kizami nori, tobiko, and salsa
+              </small>
+            </div>
+          </div>
+          <div>
+            <div class="desc-content not">
+              <span>2 SILKEN SHISO TOFU BOWL</span>
+              <small
+                >Tuna and tofu over 8 - grain brown rice with mixed greens,
+                hijiki quinoa, edamame, silken shiso tofu sauce, avocado, and
+                kizami nori
+              </small>
+            </div>
+          </div>
+          <div>
+            <div class="desc-content not">
+              <span>3 SALTED MANGO HAMACHI BOWL</span>
+              <small
+                >Hamachi and scallops over mixed greens with mango, hijiki quinoa,
+                edamame, tomato, mango anchovy sauce, masago, sesame seeds, and
+              </small>
+            </div>
+          </div>
+          <div>
+            <i class="fas fa-pepper-hot"></i>
+            <div class="desc-content">
+                <span>4 POMEGRANATE CITRUS SPICE BOWL</span>
+                <small
+                  >Salmon over sushi rice with mixed greens, tomato, sweet onion,
+                  cucumber, edamame, pomegranate citrus spice sauce, ogo seaweed,
+                  sesame
+                </small>
+            </div>
+          </div>
+          <div>
+            <div class="desc-content not">
+                <span>5 WASABI CASHEW TAKO BOWL</span>
+                <small
+                  >Octopus, scallops, and shrimp over kale cold noodles with mixed
+                  greens, hijiki quinoa, tomato, wasabi cashew peanut sauce, ogo
+                  seaweed, rice pop, and radish sprouts
+                </small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div></div>
+    </section>
+    <section>
+      <img src="./images/sushis.jpg" alt="sushi-image" />
+    </section>
+    <section>
+      <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+        <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+        <script>
+          (function () {
+            var setting = {
+              height: 531,
+              width: 1800,
+              zoom: 13,
+              queryString: "New York, État de New York, États-Unis",
+              place_id: "ChIJOwg_06VPwokRYv534QaPC8g",
+              satellite: false,
+              centerCoord: [40.69275788586545, -74.00462391467774],
+              cid: "0xc80b8f06e177fe62",
+              lang: "fr",
+              cityUrl: "/us/ny/new-york",
+              cityAnchorText: "Carte de New York, État de New York, États-Unis",
+              id: "map-9cd199b9cc5410cd3b1ad21cab2e54d3",
+              embed_id: "406070",
+            };
+            var d = document;
+            var s = d.createElement("script");
+            s.src = "https://1map.com/js/script-for-user.js?embed_id=406070";
+            s.async = true;
+            s.onload = function (e) {
+              window.OneMap.initMap(setting);
+            };
+            var to = d.getElementsByTagName("script")[0];
+            to.parentNode.insertBefore(s, to);
+          })();
+        </script>
+        <a href="https://1map.com/fr/map-embed">1 Map</a>
+      </div>
+    </section>
+   
+      <footer>
+        <h3>Contact</h3>
+        <span> 646-368-1727</span>
+        <span>info@komewaza.com</span>
+      </footer>
+   
+  </body>
+</html>
